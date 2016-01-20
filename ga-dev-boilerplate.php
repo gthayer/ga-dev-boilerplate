@@ -7,7 +7,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       GA Dev Boilerplate
- * Description:       A simple boilerplate WordPress plugin for Google Analytics development.
+ * Description:       A simple WordPress boilerplate plugin for Google Analytics development.
  * Version:           1.0.0
  * Author:            Gary Thayer
  * Author URI:        http://hallme.com/
