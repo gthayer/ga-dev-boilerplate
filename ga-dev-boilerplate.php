@@ -63,7 +63,7 @@ class GA_Dev_Boilerplate {
 		$this->plugin_name = 'ga_dev_boilerplate';
 		$this->version = '1.0.0';
 
-		add_action( 'wp_enqueue_scripts', array( $this, 'scripts_styles' ) );
+		add_action( 'wp_enqueue_scripts', array( $this, 'scripts_styles' ), 30 );
 		add_filter( 'clean_url', array( $this, 'async_url' ), 11, 1 );
 		add_action( 'wp_head', array( $this, 'display_ga_snippet' ) );
 
